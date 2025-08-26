@@ -1,0 +1,31 @@
+# Arquivos de configuração do Docker
+Dockerfile
+docker-compose.yaml
+docker-compose.yml
+docker-compose.override.yaml
+docker-compose.override.yml
+
+# Logs do container e da aplicação
+logs/
+*.log
+
+# Cache e arquivos temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Configurações locais do editor
+.vscode/
+.idea/
+
+# Arquivos de configurações de ambiente
+.env
+venv
+config.ini
+
+# Arquivos de upload e deploy (xlsx)
+uploads/
+*.xlsx
